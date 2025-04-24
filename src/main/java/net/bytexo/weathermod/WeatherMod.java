@@ -11,7 +11,9 @@ public class WeatherMod implements ClientModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
+
 	public void onInitializeClient() {
+		HudRenderer.init();
 		LOGGER.info("Weather Status Mod Initialized!");
 	}
 }
