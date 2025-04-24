@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "weatherstatus",
+	"version": "${version}",
+	"name": "Weather Mod",
+	"description": "This is a weather status and thunder alert mod by bytexo",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/weatherstatus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"net.bytexo.weathermod.WeatherMod"
+		],
+		"fabric-datagen": [
+			"net.bytexo.weathermod.WeatherModDataGenerator"
+		]
+	},
+	"mixins": [
+		"weatherstatus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
