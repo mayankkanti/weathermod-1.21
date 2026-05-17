@@ -3,6 +3,11 @@
 ## Description
 The Weather Mod is a Minecraft mod that provides real-time weather status and thunderstorm alerts. It displays the current time of day (Daytime/Nighttime) and weather conditions (Clear, Rainy, or Thunderstorm) on the HUD. During thunderstorms, it sends periodic alerts in the chat.
 
+Why did i make it?
+Was playing the game, and wanted to do an advancement that requies a thunderstorm. And thunderstorm is like reallly [rare](https://minecraft.wiki/w/Thunderstorm) in Minecraft
+So I made mod for it!
+It was a fun experience
+
 ## Features
 - Displays time of day (Daytime/Nighttime) on the HUD.
 - Displays current weather status (Clear, Rainy, or Thunderstorm) on the HUD.
